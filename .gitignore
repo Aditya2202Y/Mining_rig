@@ -1,0 +1,39 @@
+# Node.js dependencies
+node_modules/
+
+# Hardhat build artifacts
+cache/
+artifacts/
+
+# Environment variables
+.env
+
+# Coverage directory
+coverage/
+coverage.json
+
+# Typechain generated files
+typechain/
+typechain-types/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

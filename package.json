@@ -1,0 +1,31 @@
+{
+  "name": "mining-rig-ownership",
+  "version": "1.0.0",
+  "description": "Fractional ownership of mining rigs using ERC-1155 tokens",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network arbitrumSepolia"
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "arbitrum",
+    "solidity",
+    "erc1155",
+    "mining"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.6",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@openzeppelin/contracts": "^5.0.0",
+    "chai": "^4.3.7",
+    "dotenv": "^16.3.1",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.26.3"
+  }
+}
